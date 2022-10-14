@@ -26,3 +26,13 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 1, 'n': 2}
+
+
+
+def letter_counter(text):
+    dd = {}
+    for i in text:
+        dd[i] = text.count(i)
+    return dd
+
+print(letter_counter('trees'))

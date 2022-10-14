@@ -9,3 +9,19 @@
 #
 # > 120
 #
+
+
+
+
+
+
+def factorial(n):
+    store = n
+    answer = 1
+    while store > 0:
+       answer *= store
+       store -= 1
+       print(answer)
+
+
+factorial(5)
